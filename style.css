@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.cabecalho{
+    width: 1365px;
+    margin: 0%;
+    position: relative;
+    color: #0a0a0a;
+    
+   }
+
+.cabecalho-imagem{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    background: #ffffff;
+}
+
+.search-box {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #C75C71;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    font-family: 'Lobster Two', cursive;
+    line-height: 40px;
+    width: 0;
+    transition: .7s;
+}
+
+::-webkit-input-placeholder{
+    color: #791127;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff0134;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+.search-box:hover > .search-txt {
+    width: 150px;
+    padding: 0 6px;
+}
+
+.lado{
+    top: 80%;
+    height: 740px;
+    width: 200px;
+    background-image: url(Cardápio\ \(8\)\ \(1\).png);
+    background-size: 200px;
+    background-position: left bottom;
+}
+
+body{
+    
+    height: 1000px;
+    width: 220px;
+    background-image: url(Cardápio\ \(9\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 195px;
+    background-position: right bottom;
+    padding: 0;
+    
+
+}
+
+.lado1{
+    top: 80%;
+    height: 160px;
+    width: 1350px;
+    background-image: url(Cardápio\ \(6\)\ \(2\)\ \(1\).png);
+    background-size: 200px;
+    background-position: right center;
+    justify-content: center;
+    padding: 0;
+}
+
+.container{
+    
+    height: 80vh;
+    background-position: center center;
+    top: 70%;
+    left: 50%;
+}
+
+.texto{
+    background: #ffffff;
+    position: absolute;
+    color: #FF0000;
+    width: 400px;
+    height: 200px;
+    top: 80%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Abril Fatface', cursive;
+
+       
+}
+
+.frase{
+    background: #ffffff;
+    position: absolute;
+    color: rgb(31, 80, 216);
+    width: 200px;
+    height: 150px;
+    top: 150%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -75px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    background-position: right bottom;
+    
+}
+
+
